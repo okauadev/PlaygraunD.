@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vought Internacional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header  >
+    <h1>Vought Internacional</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#trailer">Trailer</a></li>
+            <li><a href="#relatorio">Relatorio</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+
+    <section id="home">
+        <h1>THE BOYS</h1>
+        <p>Nunca conheça seus Herois</p>
+    </section>
+    
+
+    <section id="news">
+        <div id="sinopse">
+            <div id="texto">
+                <h1>Dossiê: corrupção suprema</h1> <br>
+                <p>Em um mundo onde super-heróis abraçam o lado sombrio de sua celebridade e fama massivas, VOUGHT INTERNATIONAL controla a narrativa. Mas quem vigia os vigilantes?</p>
+                <p>The Boys é um olhar irreverente sobre o que acontece quando super-heróis — que são tão populares quanto celebridades, tão influentes quanto políticos e tão reverenciados quanto deuses — abusam de seus superpoderes em vez de usá-los para o bem. É o sem-poder contra o super-poderoso enquanto os justiceiros embarcam em uma busca heróica para expor a verdade sobre <span>Os Sete</span>.</p>
+            </div>
+            <img src="img/a690c7d8c996069d77cb87027bf92fa8.jpg" alt="Billy Butcher">
+        </div>
+    </section>
+
+    <section id="trailer">
+       <h1>Assista o Trailer</h1> 
+        <div id="trailer1">
+            <iframe width="1200" height="720" src="https://www.youtube.com/embed/PXXPpFCxnkQ?si=x_LyQtIqYnNEjwYR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="relatorio">
+        <form action="relatorio.php" method="post"> 
+            <div>
+                <label for="">id do cidadão</label>
+                <input type="text" name="id" id="id" placeholder="VGT-xxxx-xxxx">
+                <label for="loc">Localização</label>
+                <input type="text" name="loc" id="loc" autocomplete="address-line1" placeholder="Ex: Nova York">
+            </div>
+
+            <div><textarea name="des" id="des">Descrição da infração</textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <h1>VOUGHT</h1>
+        <p>© 2024 VOUGHT INTERNATIONAL. ALL RIGHTS RESERVED. CITIZEN COMPLIANCE IS MANDATORY.</p>
+    </footer>
+    
+</main>
+</body>
+</html>
