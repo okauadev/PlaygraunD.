@@ -43,16 +43,27 @@ nav a {
 
 main {
     background-image: url(img/void-76yi7dw0zv654mzb.jpg);
+    height: 100vh;
 }
 
 #card {
     border-radius: 10px;
     padding: 40px;
     max-width: 700px;
+    color: #ffffff;
     margin: 40px auto;
+    backdrop-filter: blur(5px);
+    border: #FFFFFF solid 1px;
+
+}
+
+#perfil {
+    align-items: center;
+    display: flex;
+    gap: 15px;
 }
 
 #perfil img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
